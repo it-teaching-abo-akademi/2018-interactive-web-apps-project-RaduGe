@@ -340,7 +340,7 @@ class Portfolio extends React.Component {
                             // everything ok, adding to state and local storage
                             var newList = this.state.stock_list;
                             newList.push({
-                                stock_symbol: this.state.new_symbol,
+                                stock_symbol: this.state.new_symbol.toUpperCase(),
                                 stock_quantity: this.state.new_quantity,
                                 unit_value: value,
                                 total_value: value * this.state.new_quantity,
