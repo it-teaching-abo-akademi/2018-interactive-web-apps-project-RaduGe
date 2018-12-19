@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/2018-interactive-web-apps-project-RaduGe/precache-manifest.61792f7a2a7cbc80b69b50db8d74ee72.js"
+  "/2018-interactive-web-apps-project-RaduGe/precache-manifest.54ca8e601bdc016113647ccf2135a7d1.js"
 );
 
 workbox.clientsClaim();
