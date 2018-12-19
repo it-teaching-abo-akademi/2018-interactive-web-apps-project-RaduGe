@@ -2,16 +2,29 @@
   "name": "spms-app",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://it-teaching-abo-akademi/2018-interactive-web-apps-project-RaduGe",
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "pondjs": "^0.8.9",
     "react": "^16.6.3",
+    "react-datepicker": "^2.0.0",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-loading": "^2.0.3",
+    "react-modal": "^3.7.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-table": "^6.8.6",
+    "react-timeseries-charts": "^0.15.5",
+    "victory": "^31.0.2",
+    "w3-css": "^4.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+  	"deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
